@@ -1,0 +1,59 @@
+
+canvas{
+    position: absolute;
+}
+.dark-vertion{
+   .nav-strict{
+     border-radius: 0px 0px 50px 50px;
+     border-top: 0;
+     border-right: 0;
+     border-bottom: 1px solid #1f88dd5e;
+     box-shadow: 0px 1px 4px 1px #7c7c7c47;
+     background-color: #202026e6;
+   }
+}
+.mh-fixed-nav{
+  z-index: 999;
+}
+.dark-vertion .mh-experince .mh-education-deatils .mh-education-item , .dark-vertion .mh-work .mh-experience-deatils .mh-work-item{
+  min-height: 200px;
+  border-radius: 0;
+}
+.typed-strings {
+  display: none;
+  animation-delay: 10s;
+  animation-duration: 3s;
+}
+
+.typed-cursor {
+  opacity: 1;
+  -webkit-animation: blink 1s infinite;
+  animation: blink 1s infinite;
+}
+.mh-experince .mh-education-deatils .mh-education-item h4 a{
+      font-style: normal;
+}
+
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
